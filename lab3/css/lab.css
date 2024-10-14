@@ -4,6 +4,15 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #21e0fd;
+    background-color: #f1a0c9;
+  }
+  .Anika_html {
+    width: 50%;
+  }
+  .Code {
+    width: 50%;
+  }
+  .Files {
+    width: 50%;
   }
