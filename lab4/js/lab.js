@@ -3,8 +3,8 @@
 // Date: Oct 23
 
 // Constants
-
-//Task 2: Pseudocode for a Rock-Paper-Scissors Game
+document.addEventListener("DOMContentLoaded", function() {
+  // //Task 2: Pseudocode for a Rock-Paper-Scissors Game
   //Initialize the game
     //1.1. Set up variables for player score and computer score
     //1.2. Define winning combinations
@@ -22,8 +22,7 @@
     //4.1. Display final scores
     //4.2. Declare overall winner
     //4.3. Thank the player for playing
-
-
+});
 
 // Functions
 
