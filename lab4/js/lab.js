@@ -1,10 +1,10 @@
-// index.js - pseudocode, how to play 
+// index.js - pseudocode how to play Rock Paper Scissors
 // Author: Anika Paredes 
 // Date: Oct 23
 
 // Constants
 document.addEventListener("DOMContentLoaded", function() {
-  // //Task 2: Pseudocode for a Rock-Paper-Scissors Game
+  //Task 2: Pseudocode for a Rock-Paper-Scissors Game
   //Initialize the game
     //1.1. Set up variables for player score and computer score
     //1.2. Define winning combinations
@@ -24,17 +24,5 @@ document.addEventListener("DOMContentLoaded", function() {
     //4.3. Thank the player for playing
 });
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
 
 
