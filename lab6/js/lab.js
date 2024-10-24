@@ -13,12 +13,12 @@ let MyMainRide = {
     color: "blue",
     year: 2012,
     age: function() {
-      2012-2024;
+      return 2012-2024;
     }
 };
 
 //output
-document.writein("Kinds of transportation I use: ", myTransport, "</br>");
-document.writein("My Main Ride : <pre>", 
-    JSON.stringify(MyMainRideyMainRide, null, '/t'), "</pre>");
+document.writeln("Kinds of transportation I use: ", myTransport, "</br>");
+document.writeln("My Main Ride : <pre>", 
+    JSON.stringify(MyMainRide, null, '/t'), "</pre>");
 
