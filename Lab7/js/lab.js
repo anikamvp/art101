@@ -1,24 +1,26 @@
-// index.js - lab 6 js my ride
+// index.js - lab 7
 // Author: Anika
-// Date: oct 24
+// Date: Nov 4
 
-// Define Variables 
-// Array of transportation methods
-let myTransport = ["car", "carpool" , "walking"];
-
-// Object for my main ride (car)
-let MyMainRide = {
-    make: "Toyota",
-    model: "Prius",
-    color: "blue",
-    year: 2012,
-    age: function() {
-      return 2012-2024;
-    }
-};
+// sortUserName - a function that takes user input and sorts the letters
+// of their name
+function sortUserName() {
+    var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
+console.log("userName =", userName);
+// split string to array
+    var nameArray = userName.split('Anika');
+ console.log("nameArray =", nameArray);
+ // sort the array
+    var nameArraySort = nameArray.sort();
+ console.log("nameArraySort =", nameArraySort);
+ // join array back to a string
+    var nameSorted = nameArraySort.join('Anika');
+ console.log("nameSorted =", nameSorted);
+ 
+// userName.tolower() ,lspl it("") .sort() .join("")
+ return nameSorted;
+ }
 
 //output
-document.writeln("Kinds of transportation I use: ", myTransport, "</br>");
-document.writeln("My Main Ride : <pre>", 
-    JSON.stringify(MyMainRide, null, '/t'), "</pre>");
-
+ document.writeln("Oh hey, I've fixed your name: ",
+ sortUserName(), "<lbr>");
