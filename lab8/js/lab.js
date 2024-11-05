@@ -19,3 +19,4 @@
       })
 
       console.log("Squareroot of array:", result);
+      
