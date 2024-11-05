@@ -19,5 +19,3 @@
    return x **5;
    })
    console.log("Squareroot of  array:", result);
-   
-   
