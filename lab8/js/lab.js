@@ -1,6 +1,6 @@
-// index.js - lab 7
+// index.js - lab 8
 // Author: Anika
-// Date: Nov 4
+// Date: Nov 5
 
 // sortUserName - a function that takes user input and sorts the letters
 // of their name
@@ -23,3 +23,20 @@ console.log("userName =", userName);
 //output
  document.writeln("Oh hey, I've fixed your name: ",
  sortUserName(), "<Anika>");
+ 
+ function isEven(x){
+   return (x % 2 == 0);
+   }
+    console.log("Is 1 even? ", isEven(1));
+    console.log("Is 2 even? ", isEven(2));
+
+    array = [100, 81, 4, 16, 42, 144, 10000]
+    console. log("My array", array);
+
+      var result= array.map(isEven);
+      console.log ("Test of evenness of array:", result);
+      var result= array.map(function(x){
+         return x ** 0.5;
+      })
+
+      console.log("Squareroot of array:", result);
