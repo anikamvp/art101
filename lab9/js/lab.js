@@ -7,16 +7,16 @@
 
    Requirements: jQuery must be loaded for this script to work.
 */
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
-$("#problems").append("<button id='button-challenge'>Make Special</button>");
-$("#results").append("<button id='button-challenge'>Make Special</button>");
+$("#Challenge").append("<button id='button-challenge'>Make Special</button>");
+$("#Problems").append("<button id='button-challenge'>Make Special</button>");
+$("#Results").append("<button id='button-challenge'>Make Special</button>");
 
 $("#button-challenge").click(function(){
-  $("#challenge").toggleClass("special");
+  $("#Challenge").toggleClass("special");
 });
 $("#button-challenge").click(function(){
-  $("#problems").toggleClass("special");
+  $("#Problems").toggleClass("special");
 });
 $("#button-challenge").click(function(){
-  $("#results").toggleClass("special");
+  $("#Results").toggleClass("special");
 });
