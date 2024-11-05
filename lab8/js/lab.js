@@ -18,3 +18,14 @@
       return x ** 0.5;
       })
    console.log("Squareroot of array:", result);
+   
+   function myFirst() {
+      myDisplayer("Hello");
+    }
+    
+    function mySecond() {
+      myDisplayer("Goodbye");
+    }
+    
+    myFirst();
+    mySecond();
