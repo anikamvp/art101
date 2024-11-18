@@ -21,14 +21,21 @@ function sortingHat(str) {
   } else { // mod === 3
       return "Empire";}
   }
-// Create a click listener attached to #button
+
+  // Attach click handler to submit button
 $("#button").click(function() {
-  // Get the value of #input and assign it to a variable name
-  const name = $("#input").val();
+  // Get the value in the #input text box, assign to a variable name
+  let name = $("#input").val();
+  console.log(name);
 
-  // Run sortingHat(name) and store the result in a variable house
-  const house = sortingHat(name);
+  // Get the length of the name
+  let namelength = name.length;
+  console.log(namelength);
 
-  // Append a new styled paragraph to #output that says "The Sorting Hat has sorted you into " + house
-  $("#output").append("<p>The Sorting Hat has sorted you into <strong>" + house + "</strong>!</p>");
-});
+  // Get the house
+  let house = getHouse(namelength);
+  console.log(house);
+
+  // Add house to output div
+  $("#output").html("<h1>" +house+ "</h1>");
+})
