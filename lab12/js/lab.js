@@ -33,7 +33,7 @@ $("#button").click(function() {
   console.log(namelength);
 
   // Get the house
-  let house = getHouse(namelength);
+  let house = sortingHat(namelength);
   console.log(house);
 
   // Add house to output div
