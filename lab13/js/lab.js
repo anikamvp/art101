@@ -21,7 +21,8 @@ function fizzBuzz() {
     }
     }
 
-    output.innerHTML = oneLongString;
+    output.index.HTML = oneLongString;
 }
 
 fizzBuzz();
+
