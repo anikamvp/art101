@@ -17,11 +17,11 @@ function fizzBuzz() {
       oneLongString += "<p>" + i + ": " + result + "</p>";
     } else {
       oneLongString += "<p>" + i + "</p>";
-    }
+
     }
 
     output.innerHTML = oneLongString;
 }
 
-fizzBuzz();
-
+fizzBuzz()
+}
