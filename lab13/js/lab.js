@@ -3,26 +3,33 @@
 // Date: dec 2024
 
 // Content
-
 function fizzBuzz() {
-  var output = document.getElementById("output");
-  var oneLongString = "";
+  let oneLongString = ""; // Initialize an empty string to hold all the output
 
-  for (var i = 1; i <= 200; i++) {
-    var result = "";
-    if (i % 3 === 0) result += "Fizz";
-    if (i % 5 === 0) result += "Buzz";
-    if (i % 7 === 0) result += "Boom";
+  // Loop through numbers from 1 to 200
+  for (let num = 1; num <= 200; num++) {
+    let output = ""; // Initialize an empty string to store output for this number
 
-    if (result !== "") {
-      oneLongString += "<p>" + i + ": " + result + "</p>";
+    // Check if the number is divisible by 3, 5, or 7
+    if (num % 3 === 0) output += "Fizz";
+    if (num % 5 === 0) output += "Buzz";
+    if (num % 7 === 0) output += "Boom";
+
+    // If no "Fizz", "Buzz", or "Boom", just print the number
+    if (output === "") {
+      output = num;
     } else {
-      oneLongString += "<p>" + i + "</p>";
-    }
+      output += "!"; // Add exclamation mark to the output
     }
 
-    output.index.HTML = oneLongString;
+    // Append the result to the long string with a line break
+    oneLongString += "<p>" + output + "</p>";
+  }
+
+  // After the loop, output all the results to the #output div
+  $("#output").html(oneLongString);
 }
 
+// Call the fizzBuzz function to execute the program
 fizzBuzz();
 
